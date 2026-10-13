@@ -1,0 +1,19 @@
+# Virtual environment and Python cache
+venv/
+__pycache__/
+*.pyc
+
+# Secrets: NEVER commit tokens or passwords
+.env
+
+# Large / generated files (folders stay tracked through .gitkeep)
+models/*
+!models/.gitkeep
+data/videos/*
+!data/videos/.gitkeep
+logs/*
+!logs/.gitkeep
+*.pt
+*.onnx
+*.mp4
+*.avi

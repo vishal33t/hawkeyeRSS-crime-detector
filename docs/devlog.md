@@ -8,12 +8,14 @@
 - Ran scripts/verify_cuda.py to confirm the RTX 2050 works with CUDA/cuDNN
 - Set up Git with a .gitignore and made the first commit
 
-**My results (fill in)**
-- GPU / driver version:
-- Python version:
-- PyTorch version and CUDA build:
-- FP32 vs FP16 speed-up:
+# Day 1.5— Environment and GPU Verification
 
+- Created and activated the project virtual environment.
+- Verified CUDA-enabled PyTorch and cuDNN on the NVIDIA RTX 2050 (4 GB VRAM).
+- Confirmed real GPU tensor computation and benchmarked FP32 versus FP16.
+- Next: verify OpenCV and Ultralytics, finalize Git setup, and test webcam capture.
+
+**Learning:** CUDA availability means PyTorch can access the GPU. FP16 can accelerate suitable workloads, but actual performance depends on the model and workload.
 **What confused me:**
 
 **What I learned:**

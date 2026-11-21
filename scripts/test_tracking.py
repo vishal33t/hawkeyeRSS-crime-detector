@@ -55,7 +55,10 @@ def main():
             )
 
             result = results[0]
-
+            print(
+                  "\nInference device:",
+                    model.predictor.device
+             )
             # Draw bounding boxes, labels and tracking IDs.
             annotated_frame = result.plot()
 
